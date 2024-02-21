@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Domain E2E Tests">
+        <classes>
+            <class name="Tests.HomePageTests"/>
+            <class name="Tests.ContactPageTests"/>
+            <class name="Tests.FeaturedJobsTests"/>
+            <class name="Tests.StaticTests"/>
+            <class name="Tests.SearchPageTests"/>
+            <class name="Tests.CompanyPageTests"/>
+            <class name="LandingPage.newLandingPageScript"/>
+        </classes>
+    </test>
+</suite>
